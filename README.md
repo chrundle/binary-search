@@ -1,7 +1,8 @@
 /* ----------------------- binarySearch ----------------------- */
-/*  Given a sorted array A with length entries this algorithm 
-    returns the index such that A[index] = val or returns -1 
-    if val is not contained in A. 
+/*  
+    Description: Given a sorted array A with length entries this 
+    algorithm returns the index such that A[index] = val or 
+    returns -1 if val is not contained in A. 
     
     Input variables:
         A  : sorted array of integers
