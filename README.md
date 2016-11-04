@@ -1,4 +1,3 @@
-/* ----------------------- binarySearch ----------------------- */
 /*  
     Description: Given a sorted array A with length entries this 
     algorithm returns the index such that A[index] = val or 
@@ -11,4 +10,5 @@
 
     Features: This implementation has complexity O(lg(n)).
     Additionally, the update for mid is implemented to ensure
-    no overflow will occur.                                     */
+    no overflow will occur.                                     
+*/
