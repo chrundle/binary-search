@@ -1,7 +1,3 @@
-#include <cstdio>
-#include <iostream>
-using namespace std;
-
 /* ----------------------- binarySearch ----------------------- */
 /*  Given a sorted array A with length entries this algorithm 
     returns the index such that A[index] = val or returns -1 
@@ -37,26 +33,4 @@ int binarySearch (const int A[], int length, int val) {
     }
 
     return (-1); // val not found in A
-}
-
-int main () {
-    int i, n, value, * arr ;
-
-    cout << "Enter the size of the array: ";
-    cin >> n ;
-
-    arr = new int[n];
-
-    /* initialize array containing 1, 2, ..., n */
-    for (i = 0; i < n; i++) {
-        arr [i] = i + 1 ;
-    }
-
-    cout << "Enter the value (between 1 and " << n << ") to search for: ";
-    cin >> value ;
-
-    printf ("The index of %i in A is: %i.\n", n, binarySearch(arr, n, value));
-
-    delete[] arr;
-    return 0;
 }
