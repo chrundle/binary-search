@@ -2,8 +2,13 @@
 /*  Given a sorted array A with length entries this algorithm 
     returns the index such that A[index] = val or returns -1 
     if val is not contained in A. 
+    
+    Variables:
+        A  : sorted array of integers
+        n  : length of array A
+        val: requested value to find in A
 
-    Features: This implementation has complexity O(log_2(n)).
+    Features: This implementation has complexity O(lg(n)).
     Additionally, the update for mid is implemented to ensure
     no overflow will occur.                                     */
 
