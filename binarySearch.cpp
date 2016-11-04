@@ -26,14 +26,14 @@ int binarySearch (const int A[], int length, int val) {
     while (low <= high) {
         mid = low + (high - low)/2; // update mid
         
-        if (A [mid] > val) { // val is is left subarray
+        if (A [mid] > val) { // search left subarray for val
             high = mid - 1;  // update high
         }
-        else if (A [mid] < val) { // val is in right subarray
+        else if (A [mid] < val) { // search right subarray for val
             low = mid + 1;        // update low
         }
         else {           // val = A[mid]
-            return mid;  // return index of val
+            return mid;  // return index of val in A
         }
     }
 
